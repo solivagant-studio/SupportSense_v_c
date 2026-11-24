@@ -1,0 +1,201 @@
+row_id,ticket_id,text,channel,customer_tier,locale,expected_sentiment,expected_priority,sentiment_score,priority_score
+R-001,TCK-2026-000001,terrible delivery_delay,email,enterprise,en-ZA,negative,medium,-0.900,0.300
+R-002,TCK-2026-000002,awful charged_twice,chat,premium,en-ZA,negative,high,-0.950,0.600
+R-003,TCK-2026-000003,excellent account_update,phone,standard,en-ZA,positive,medium,0.950,0.300
+R-004,TCK-2026-000004,broken question,social,enterprise,en-ZA,negative,low,-0.800,0.080
+R-005,TCK-2026-000005,okay feature_request,email,premium,en-ZA,positive,low,0.050,0.100
+R-006,TCK-2026-000006,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-007,TCK-2026-000007,disappointing delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.550,0.300
+R-008,TCK-2026-000008,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-009,TCK-2026-000009,excellent site_down,email,standard,en-ZA,positive,critical,0.950,1.000
+R-010,TCK-2026-000010,awful charged_twice,chat,enterprise,en-ZA,negative,high,-0.950,0.600
+R-011,TCK-2026-000011,wrong_item,phone,premium,en-ZA,neutral,medium,0.000,0.350
+R-012,TCK-2026-000012,recommend feedback,social,standard,en-ZA,positive,low,0.700,0.070
+R-013,TCK-2026-000013,ignored site_down,email,enterprise,en-ZA,negative,critical,-0.700,1.000
+R-014,TCK-2026-000014,charged_twice,chat,premium,en-ZA,neutral,high,0.000,0.600
+R-015,TCK-2026-000015,excellent account_update,phone,standard,en-ZA,positive,medium,0.950,0.300
+R-016,TCK-2026-000016,unhappy question,social,enterprise,en-ZA,negative,low,-0.600,0.060
+R-017,TCK-2026-000017,site_down,email,premium,en-ZA,neutral,critical,0.000,1.000
+R-018,TCK-2026-000018,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-019,TCK-2026-000019,late delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.450,0.300
+R-020,TCK-2026-000020,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-021,TCK-2026-000021,excellent site_down,email,standard,en-ZA,positive,critical,0.950,1.000
+R-022,TCK-2026-000022,bad charged_twice,chat,enterprise,en-ZA,negative,high,-0.800,0.600
+R-023,TCK-2026-000023,wrong_item,phone,premium,en-ZA,neutral,medium,0.000,0.350
+R-024,TCK-2026-000024,recommend feedback,social,standard,en-ZA,positive,low,0.700,0.070
+R-025,TCK-2026-000025,terrible site_down,email,enterprise,en-ZA,negative,critical,-0.900,1.000
+R-026,TCK-2026-000026,charged_twice,chat,premium,en-ZA,neutral,high,0.000,0.600
+R-027,TCK-2026-000027,excellent account_update,phone,standard,en-ZA,positive,medium,0.950,0.300
+R-028,TCK-2026-000028,broken question,social,enterprise,en-ZA,negative,low,-0.800,0.080
+R-029,TCK-2026-000029,site_down,email,premium,en-ZA,neutral,critical,0.000,1.000
+R-030,TCK-2026-000030,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-031,TCK-2026-000031,disappointing delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.550,0.300
+R-032,TCK-2026-000032,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-033,TCK-2026-000033,excellent site_down,email,standard,en-ZA,positive,critical,0.950,1.000
+R-034,TCK-2026-000034,awful charged_twice,chat,enterprise,en-ZA,negative,high,-0.950,0.600
+R-035,TCK-2026-000035,wrong_item,phone,premium,en-ZA,neutral,medium,0.000,0.350
+R-036,TCK-2026-000036,recommend feedback,social,standard,en-ZA,positive,low,0.700,0.070
+R-037,TCK-2026-000037,ignored site_down,email,enterprise,en-ZA,negative,critical,-0.700,1.000
+R-038,TCK-2026-000038,charged_twice,chat,premium,en-ZA,neutral,high,0.000,0.600
+R-039,TCK-2026-000039,excellent account_update,phone,standard,en-ZA,positive,medium,0.950,0.300
+R-040,TCK-2026-000040,unhappy question,social,enterprise,en-ZA,negative,low,-0.600,0.060
+R-041,TCK-2026-000041,site_down,email,premium,en-ZA,neutral,critical,0.000,1.000
+R-042,TCK-2026-000042,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-043,TCK-2026-000043,late delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.450,0.300
+R-044,TCK-2026-000044,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-045,TCK-2026-000045,excellent site_down,email,standard,en-ZA,positive,critical,0.950,1.000
+R-046,TCK-2026-000046,bad charged_twice,chat,enterprise,en-ZA,negative,high,-0.800,0.600
+R-047,TCK-2026-000047,wrong_item,phone,premium,en-ZA,neutral,medium,0.000,0.350
+R-048,TCK-2026-000048,recommend feedback,social,standard,en-ZA,positive,low,0.700,0.070
+R-049,TCK-2026-000049,terrible site_down,email,enterprise,en-ZA,negative,critical,-0.900,1.000
+R-050,TCK-2026-000050,charged_twice,chat,premium,en-ZA,neutral,high,0.000,0.600
+R-051,TCK-2026-000051,excellent account_update,phone,standard,en-ZA,positive,medium,0.950,0.300
+R-052,TCK-2026-000052,broken question,social,enterprise,en-ZA,negative,low,-0.800,0.080
+R-053,TCK-2026-000053,site_down,email,premium,en-ZA,neutral,critical,0.000,1.000
+R-054,TCK-2026-000054,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-055,TCK-2026-000055,disappointing delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.550,0.300
+R-056,TCK-2026-000056,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-057,TCK-2026-000057,excellent site_down,email,standard,en-ZA,positive,critical,0.950,1.000
+R-058,TCK-2026-000058,awful charged_twice,chat,enterprise,en-ZA,negative,high,-0.950,0.600
+R-059,TCK-2026-000059,wrong_item,phone,premium,en-ZA,neutral,medium,0.000,0.350
+R-060,TCK-2026-000060,recommend feedback,social,standard,en-ZA,positive,low,0.700,0.070
+R-061,TCK-2026-000061,ignored site_down,email,enterprise,en-ZA,negative,critical,-0.700,1.000
+R-062,TCK-2026-000062,charged_twice,chat,premium,en-ZA,neutral,high,0.000,0.600
+R-063,TCK-2026-000063,excellent account_update,phone,standard,en-ZA,positive,medium,0.950,0.300
+R-064,TCK-2026-000064,unhappy question,social,enterprise,en-ZA,negative,low,-0.600,0.060
+R-065,TCK-2026-000065,site_down,email,premium,en-ZA,neutral,critical,0.000,1.000
+R-066,TCK-2026-000066,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-067,TCK-2026-000067,late delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.450,0.300
+R-068,TCK-2026-000068,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-069,TCK-2026-000069,excellent site_down,email,standard,en-ZA,positive,critical,0.950,1.000
+R-070,TCK-2026-000070,bad charged_twice,chat,enterprise,en-ZA,negative,high,-0.800,0.600
+R-071,TCK-2026-000071,wrong_item,phone,premium,en-ZA,neutral,medium,0.000,0.350
+R-072,TCK-2026-000072,recommend feedback,social,standard,en-ZA,positive,low,0.700,0.070
+R-073,TCK-2026-000073,terrible site_down,email,enterprise,en-ZA,negative,critical,-0.900,1.000
+R-074,TCK-2026-000074,charged_twice,chat,premium,en-ZA,neutral,high,0.000,0.600
+R-075,TCK-2026-000075,excellent account_update,phone,standard,en-ZA,positive,medium,0.950,0.300
+R-076,TCK-2026-000076,broken question,social,enterprise,en-ZA,negative,low,-0.800,0.080
+R-077,TCK-2026-000077,site_down,email,premium,en-ZA,neutral,critical,0.000,1.000
+P-078,TCK-2026-000078,recommend p078,chat,standard,en-ZA,positive,high,0.700,0.780
+P-079,TCK-2026-000079,disappointing p079,phone,enterprise,en-ZA,negative,high,-0.550,0.790
+P-080,TCK-2026-000080,p080,social,premium,en-ZA,neutral,critical,0.000,0.800
+P-081,TCK-2026-000081,excellent p081,email,standard,en-ZA,positive,critical,0.950,0.810
+R-082,TCK-2026-000082,awful delivery_delay,chat,enterprise,en-ZA,negative,medium,-0.950,0.300
+R-083,TCK-2026-000083,feature_request,phone,premium,en-ZA,neutral,low,0.000,0.100
+R-084,TCK-2026-000084,recommend urgent,social,standard,en-ZA,positive,high,0.700,0.550
+R-085,TCK-2026-000085,ignored delivery_delay,email,enterprise,en-ZA,negative,medium,-0.700,0.300
+R-086,TCK-2026-000086,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+R-087,TCK-2026-000087,excellent cancelled_order,phone,standard,en-ZA,positive,high,0.950,0.580
+R-088,TCK-2026-000088,unhappy delivery_delay,social,enterprise,en-ZA,negative,medium,-0.600,0.300
+R-089,TCK-2026-000089,feature_request,email,premium,en-ZA,neutral,low,0.000,0.100
+R-090,TCK-2026-000090,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-091,TCK-2026-000091,late delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.450,0.300
+R-092,TCK-2026-000092,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-093,TCK-2026-000093,excellent refund,email,standard,en-ZA,positive,high,0.950,0.550
+R-094,TCK-2026-000094,bad delivery_delay,chat,enterprise,en-ZA,negative,medium,-0.800,0.300
+R-095,TCK-2026-000095,feature_request,phone,premium,en-ZA,neutral,low,0.000,0.100
+R-096,TCK-2026-000096,recommend urgent,social,standard,en-ZA,positive,high,0.700,0.550
+R-097,TCK-2026-000097,terrible delivery_delay,email,enterprise,en-ZA,negative,medium,-0.900,0.300
+R-098,TCK-2026-000098,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+R-099,TCK-2026-000099,excellent cancelled_order,phone,standard,en-ZA,positive,high,0.950,0.580
+R-100,TCK-2026-000100,broken delivery_delay,social,enterprise,en-ZA,negative,medium,-0.800,0.300
+R-101,TCK-2026-000101,feature_request,email,premium,en-ZA,neutral,low,0.000,0.100
+R-102,TCK-2026-000102,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-103,TCK-2026-000103,disappointing delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.550,0.300
+R-104,TCK-2026-000104,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-105,TCK-2026-000105,excellent refund,email,standard,en-ZA,positive,high,0.950,0.550
+R-106,TCK-2026-000106,awful delivery_delay,chat,enterprise,en-ZA,negative,medium,-0.950,0.300
+R-107,TCK-2026-000107,feature_request,phone,premium,en-ZA,neutral,low,0.000,0.100
+R-108,TCK-2026-000108,recommend urgent,social,standard,en-ZA,positive,high,0.700,0.550
+R-109,TCK-2026-000109,ignored delivery_delay,email,enterprise,en-ZA,negative,medium,-0.700,0.300
+R-110,TCK-2026-000110,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+R-111,TCK-2026-000111,excellent cancelled_order,phone,standard,en-ZA,positive,high,0.950,0.580
+R-112,TCK-2026-000112,unhappy delivery_delay,social,enterprise,en-ZA,negative,medium,-0.600,0.300
+R-113,TCK-2026-000113,feature_request,email,premium,en-ZA,neutral,low,0.000,0.100
+R-114,TCK-2026-000114,recommend charged_twice,chat,standard,en-ZA,positive,high,0.700,0.600
+R-115,TCK-2026-000115,late delivery_delay,phone,enterprise,en-ZA,negative,medium,-0.450,0.300
+R-116,TCK-2026-000116,feature_request,social,premium,en-ZA,neutral,low,0.000,0.100
+R-117,TCK-2026-000117,excellent refund,email,standard,en-ZA,positive,high,0.950,0.550
+R-118,TCK-2026-000118,bad delivery_delay,chat,enterprise,en-ZA,negative,medium,-0.800,0.300
+R-119,TCK-2026-000119,feature_request,phone,premium,en-ZA,neutral,low,0.000,0.100
+R-120,TCK-2026-000120,recommend urgent,social,standard,en-ZA,positive,high,0.700,0.550
+R-121,TCK-2026-000121,terrible delivery_delay,email,premium,en-ZA,negative,medium,-0.900,0.300
+R-122,TCK-2026-000122,feature_request,chat,standard,en-ZA,neutral,low,0.000,0.100
+R-123,TCK-2026-000123,excellent cancelled_order,phone,premium,en-ZA,positive,high,0.950,0.580
+R-124,TCK-2026-000124,broken delivery_delay,email,standard,en-ZA,negative,medium,-0.800,0.300
+R-125,TCK-2026-000125,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+R-126,TCK-2026-000126,recommend charged_twice,phone,standard,en-ZA,positive,high,0.700,0.600
+R-127,TCK-2026-000127,disappointing delivery_delay,email,premium,en-ZA,negative,medium,-0.550,0.300
+R-128,TCK-2026-000128,feature_request,chat,standard,en-ZA,neutral,low,0.000,0.100
+R-129,TCK-2026-000129,excellent refund,phone,premium,en-ZA,positive,high,0.950,0.550
+R-130,TCK-2026-000130,awful delivery_delay,email,standard,en-ZA,negative,medium,-0.950,0.300
+R-131,TCK-2026-000131,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+R-132,TCK-2026-000132,recommend urgent,phone,standard,en-ZA,positive,high,0.700,0.550
+R-133,TCK-2026-000133,ignored delivery_delay,email,premium,en-ZA,negative,medium,-0.700,0.300
+R-134,TCK-2026-000134,feature_request,chat,standard,en-ZA,neutral,low,0.000,0.100
+R-135,TCK-2026-000135,excellent cancelled_order,phone,premium,en-ZA,positive,high,0.950,0.580
+R-136,TCK-2026-000136,unhappy delivery_delay,email,standard,en-ZA,negative,medium,-0.600,0.300
+R-137,TCK-2026-000137,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+R-138,TCK-2026-000138,recommend charged_twice,phone,standard,en-ZA,positive,high,0.700,0.600
+R-139,TCK-2026-000139,late delivery_delay,email,premium,en-ZA,negative,medium,-0.450,0.300
+R-140,TCK-2026-000140,feature_request,chat,standard,en-ZA,neutral,low,0.000,0.100
+R-141,TCK-2026-000141,excellent refund,phone,premium,en-ZA,positive,high,0.950,0.550
+R-142,TCK-2026-000142,bad delivery_delay,email,standard,en-ZA,negative,medium,-0.800,0.300
+R-143,TCK-2026-000143,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+S-144,TCK-2026-000144,calib144 urgent,phone,standard,en-ZA,neutral,high,0.144,0.550
+S-145,TCK-2026-000145,calib145 delivery_delay,email,premium,en-ZA,neutral,medium,0.145,0.300
+R-146,TCK-2026-000146,feature_request,chat,standard,en-ZA,neutral,low,0.000,0.100
+R-147,TCK-2026-000147,excellent cancelled_order,phone,premium,en-ZA,positive,high,0.950,0.580
+R-148,TCK-2026-000148,broken delivery_delay,email,standard,en-ZA,negative,medium,-0.800,0.300
+R-149,TCK-2026-000149,feature_request,chat,premium,en-ZA,neutral,low,0.000,0.100
+S-150,TCK-2026-000150,calib150 charged_twice,phone,standard,en-ZA,positive,high,0.150,0.600
+R-151,TCK-2026-000151,disappointing delivery_delay,email,premium,en-ZA,negative,medium,-0.550,0.300
+R-152,TCK-2026-000152,feature_request,email,standard,en-ZA,neutral,low,0.000,0.100
+R-153,TCK-2026-000153,excellent refund,email,premium,en-ZA,positive,high,0.950,0.550
+R-154,TCK-2026-000154,awful delivery_delay,email,standard,en-ZA,negative,medium,-0.950,0.300
+R-155,TCK-2026-000155,feature_request,email,premium,en-ZA,neutral,low,0.000,0.100
+R-156,TCK-2026-000156,recommend urgent,email,standard,en-ZA,positive,high,0.700,0.550
+R-157,TCK-2026-000157,ignored delivery_delay,email,premium,en-ZA,negative,medium,-0.700,0.300
+R-158,TCK-2026-000158,feature_request,email,standard,en-ZA,neutral,low,0.000,0.100
+R-159,TCK-2026-000159,excellent cancelled_order,email,premium,en-ZA,positive,high,0.950,0.580
+R-160,TCK-2026-000160,unhappy delivery_delay,email,standard,en-ZA,negative,medium,-0.600,0.300
+R-161,TCK-2026-000161,feature_request,email,standard,en-ZA,neutral,low,0.000,0.100
+R-162,TCK-2026-000162,recommend charged_twice,email,standard,en-ZA,positive,high,0.700,0.600
+R-163,TCK-2026-000163,late delivery_delay,email,standard,en-ZA,negative,medium,-0.450,0.300
+R-164,TCK-2026-000164,feature_request,email,standard,en-ZA,neutral,low,0.000,0.100
+R-165,TCK-2026-000165,excellent refund,email,standard,en-ZA,positive,high,0.950,0.550
+R-166,TCK-2026-000166,bad delivery_delay,email,standard,en-ZA,negative,medium,-0.800,0.300
+R-167,TCK-2026-000167,feature_request,email,standard,en-ZA,neutral,low,0.000,0.100
+R-168,TCK-2026-000168,recommend urgent,email,standard,en-ZA,positive,high,0.700,0.550
+R-169,TCK-2026-000169,terrible delivery_delay,email,standard,en-ZA,negative,medium,-0.900,0.300
+R-170,TCK-2026-000170,feature_request,email,standard,en-ZA,neutral,low,0.000,0.100
+R-171,TCK-2026-000171,excellent account_update,email,standard,en-ZA,positive,medium,0.950,0.300
+R-172,TCK-2026-000172,broken question,email,standard,en-ZA,negative,low,-0.800,0.080
+R-173,TCK-2026-000173,wrong_item,email,standard,en-ZA,neutral,medium,0.000,0.350
+R-174,TCK-2026-000174,recommend feedback,email,standard,en-ZA,positive,low,0.700,0.070
+R-175,TCK-2026-000175,disappointing delivery_delay,email,standard,en-ZA,negative,medium,-0.550,0.300
+R-176,TCK-2026-000176,feature_request,email,standard,en-ZA,neutral,low,0.000,0.100
+R-177,TCK-2026-000177,excellent account_update,email,standard,en-ZA,positive,medium,0.950,0.300
+R-178,TCK-2026-000178,awful question,email,standard,en-ZA,negative,low,-0.950,0.095
+R-179,TCK-2026-000179,wrong_item,email,standard,en-ZA,neutral,medium,0.000,0.350
+R-180,TCK-2026-000180,recommend feedback,email,standard,en-ZA,positive,low,0.700,0.070
+R-181,TCK-2026-000181,ignored delivery_delay,email,standard,en-ZA,negative,medium,-0.700,0.300
+R-182,TCK-2026-000182,bad feature_request,email,standard,en-ZA,negative,low,-0.800,0.100
+R-183,TCK-2026-000183,disappointing account_update,email,standard,en-ZA,negative,medium,-0.550,0.300
+R-184,TCK-2026-000184,unhappy question,email,standard,en-ZA,negative,low,-0.600,0.060
+R-185,TCK-2026-000185,terrible wrong_item,email,standard,en-ZA,negative,medium,-0.900,0.350
+R-186,TCK-2026-000186,awful feedback,email,standard,en-ZA,negative,low,-0.950,0.095
+R-187,TCK-2026-000187,late delivery_delay,email,standard,en-ZA,negative,medium,-0.450,0.300
+R-188,TCK-2026-000188,broken feature_request,email,standard,en-ZA,negative,low,-0.800,0.100
+R-189,TCK-2026-000189,ignored account_update,email,standard,en-ZA,negative,medium,-0.700,0.300
+R-190,TCK-2026-000190,bad question,email,standard,en-ZA,negative,low,-0.800,0.080
+R-191,TCK-2026-000191,disappointing wrong_item,email,standard,en-ZA,negative,medium,-0.550,0.350
+R-192,TCK-2026-000192,unhappy account_update,email,standard,en-ZA,negative,medium,-0.600,0.300
+R-193,TCK-2026-000193,terrible delivery_delay,email,standard,en-ZA,negative,medium,-0.900,0.300
+R-194,TCK-2026-000194,awful wrong_item,email,standard,en-ZA,negative,medium,-0.950,0.350
+R-195,TCK-2026-000195,late account_update,email,standard,en-ZA,negative,medium,-0.450,0.300
+R-196,TCK-2026-000196,broken delivery_delay,email,standard,en-ZA,negative,medium,-0.800,0.300
+R-197,TCK-2026-000197,ignored wrong_item,email,standard,en-ZA,negative,medium,-0.700,0.350
+R-198,TCK-2026-000198,bad account_update,email,standard,en-ZA,negative,medium,-0.800,0.300
+R-199,TCK-2026-000199,disappointing delivery_delay,email,standard,en-ZA,negative,medium,-0.550,0.300
+R-200,TCK-2026-000200,unhappy wrong_item,email,standard,en-ZA,negative,medium,-0.600,0.350

@@ -1,0 +1,17 @@
+# PLAN TASK: 8 | STUDENT TASK PACK: Day 1 | EVIDENCE: ONB-01
+# WHERE: dashboard container image
+# DO: use this image only for read-only inspection of recent tickets.
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY dashboard ./dashboard
+COPY app ./app
+
+ENV PYTHONPATH=/app
+EXPOSE 8501
+
+CMD ["streamlit", "run", "dashboard/app.py", "--server.address", "0.0.0.0", "--server.port", "8501"]

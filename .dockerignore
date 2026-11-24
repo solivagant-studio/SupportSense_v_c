@@ -1,0 +1,11 @@
+# PLAN TASK: 1 | STUDENT TASK PACK: Day 1 | EVIDENCE: ONB-01
+# WHERE: Docker build context
+# DO: keep local environments and generated data out of the student images.
+.venv
+.git
+.pytest_cache
+__pycache__
+*.pyc
+*.db
+.superpowers
+reports

@@ -1,0 +1,15 @@
+# PLAN TASK: 1 | STUDENT TASK PACK: Day 1 | EVIDENCE: ONB-01
+# WHERE: repository-level ignore rules
+# DO: keep generated databases, reports, and local environments out of student commits.
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.db
+.pgdata/
+reports/
+htmlcov/
+.coverage
+.superpowers/
+.worktrees/
+.DS_Store

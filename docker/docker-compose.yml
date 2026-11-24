@@ -1,0 +1,60 @@
+# PLAN TASK: 1 | STUDENT TASK PACK: Day 1 | EVIDENCE: ONB-01
+# WHERE: full local stack definition
+# DO: run `docker compose -f docker/docker-compose.yml up --build` from the repository root.
+services:
+  suggest:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.suggest
+    image: supportsense-suggest:${VARIANT_TAG:-c}
+    environment:
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    expose:
+      - "8001"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/v1/health', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    image: supportsense:${VARIANT_TAG:-c}
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      VARIANT: ${VARIANT:-C}
+      PORT: "8000"
+      MAX_BATCH: ${MAX_BATCH:-1}
+      LATENCY_MS: ${LATENCY_MS:-0}
+      MAX_BODY_KB: ${MAX_BODY_KB:-256}
+      MODEL_PATH: ${MODEL_PATH:-model/artefacts/sentiment.joblib}
+      DB_PATH: ${DB_PATH:-data/supportsense.db}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      ALLOW_ADMIN: ${ALLOW_ADMIN:-true}
+      SUGGEST_SERVICE_URL: ${SUGGEST_SERVICE_URL:-http://suggest:8001}
+    depends_on:
+      suggest:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/v1/health', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  dashboard:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dashboard
+    image: supportsense-dashboard:${VARIANT_TAG:-c}
+    ports:
+      - "8501:8501"
+    environment:
+      API_BASE_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
